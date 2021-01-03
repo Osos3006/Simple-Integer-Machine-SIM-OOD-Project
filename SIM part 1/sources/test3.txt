@@ -1,0 +1,13 @@
+READ $1
+JMP $3
+WRITE $2
+WRITE $1
+ADD $1,#2,$0
+NEG #-9,$6
+READ $1
+JMP0 $1,$5
+MUL $1,#-7,$10
+NEG #-10,$9
+ASS $1,$5
+LE $1,$2,$3
+NEG #-21,$4
